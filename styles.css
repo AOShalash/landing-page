@@ -48,14 +48,15 @@ button {
 
 a {
   text-decoration: none;
-  color: #F9FAF8;
+  color: #E5E7EB;
 }
 
 ul {
   display: flex;
   list-style: none;
-  padding: 0;
+  padding: 8px;
   margin: 0;
+  gap: 12px;
 }
 
 /* Layout */
@@ -98,8 +99,9 @@ body,
 }
 
 .header {
-  padding: 12px;
+  padding: 8px 128px;
   margin: 0;
+  align-items: center;
 }
 
 .header-logo {
