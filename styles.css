@@ -1,0 +1,28 @@
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex-wrap: nowrap;
+  font-family: 'Roboto'
+}
+
+a {
+  text-decoration: none;
+  /* color: white; uncomment when background is set */
+}
+
+.top-quadrant,
+.header,
+.top-quadrant-content,
+.random-info-quadrant,
+.random-info-grid,
+.quote-quadrant, 
+.footer-quadrant,
+.signup-block {
+  display: flex;
+}
+
+.top-quadrant,
+.random-info-quadrant {
+  flex-direction: column;
+}
