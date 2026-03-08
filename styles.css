@@ -112,6 +112,7 @@ body,
   flex: 1;
   flex-direction: column;
   gap: 32px;
+  padding: 0 128px;
 }
 
 .header {
@@ -139,7 +140,7 @@ body,
 }
 
 .hero-button {
-  margin-top: 8px;
+  margin-top: 32px;
 }
 
 
