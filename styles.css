@@ -44,11 +44,18 @@ button {
   font-weight: 100;
 }
 
-/* Other Colors */
+/* Other Colors and Styles */
 
 a {
   text-decoration: none;
   color: #F9FAF8;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 /* Layout */
@@ -81,13 +88,26 @@ body,
   flex: 1;
 }
 
+.top-quadrant,
+.random-info-quadrant {
+  flex-direction: column;
+}
+
+.top-quadrant {
+  gap: 32px;
+}
+
+.header {
+  padding: 12px;
+  margin: 0;
+}
+
+.header-logo {
+  margin-right: auto;
+}
+
 .copyright-footer {
   height: 60px;
   text-align: center;
   align-content: center;
-}
-
-.top-quadrant,
-.random-info-quadrant {
-  flex-direction: column;
 }
