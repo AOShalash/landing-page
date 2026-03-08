@@ -1,16 +1,67 @@
+/* Colors and Fonts */
+
+* {
+  font-family: 'Roboto', 'Arial';
+}
+
+.top-quadrant, .copyright-footer {
+  background-color: #1f2937;
+  color: #F9FAF8;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.hero-subtitle {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.header-logo {
+  font-size: 24px;
+  color: #f9faf8
+}
+
+button {
+  color: #3882F6;
+}
+
+.random-info-title {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+}
+
+.quote-quadrant {
+  background-color: #E5E7EB;
+}
+
+.quote {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 100;
+}
+
+/* Main Styles */
+
 body {
-  display: flex;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Roboto';
   flex-direction: column;
   gap: 20px;
   flex-wrap: nowrap;
-  font-family: 'Roboto'
 }
 
 a {
   text-decoration: none;
-  /* color: white; uncomment when background is set */
+  color: #F9FAF8;
 }
 
+body,
 .top-quadrant,
 .header,
 .top-quadrant-content,
@@ -20,6 +71,17 @@ a {
 .footer-quadrant,
 .signup-block {
   display: flex;
+}
+
+.top-quadrant,
+.random-info-quadrant,
+.quote-quadrant,
+.footer-quadrant {
+  flex: 1;
+}
+
+.copyright-footer {
+  flex: 0 0 200;
 }
 
 .top-quadrant,
