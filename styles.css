@@ -25,7 +25,8 @@
 }
 
 button {
-  color: #3882F6;
+  background-color: #3882F6;
+  color: #F9FAF8;
 }
 
 .random-info-title {
@@ -44,6 +45,10 @@ button {
   font-weight: 100;
 }
 
+.signup-block {
+  background-color: #3882F6; 
+}
+
 /* Other Colors and Styles */
 
 a {
@@ -59,6 +64,17 @@ ul {
   gap: 12px;
 }
 
+button {
+  padding: 8px 24px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.signup-button {
+  border: 2px solid white;
+}
+
 /* Layout */
 
 body {
@@ -71,9 +87,6 @@ body {
 }
 
 body,
-.top-quadrant,
-.header,
-.top-quadrant-content,
 .random-info-quadrant,
 .random-info-grid,
 .quote-quadrant, 
@@ -82,23 +95,27 @@ body,
   display: flex;
 }
 
-.top-quadrant,
 .random-info-quadrant,
 .quote-quadrant,
 .footer-quadrant {
   flex: 1;
 }
 
-.top-quadrant,
 .random-info-quadrant {
   flex-direction: column;
 }
 
+/* Top Quadrant */
+
 .top-quadrant {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
   gap: 32px;
 }
 
 .header {
+  display: flex;
   padding: 8px 128px;
   margin: 0;
   align-items: center;
@@ -107,6 +124,28 @@ body,
 .header-logo {
   margin-right: auto;
 }
+
+.top-quadrant-content {
+  display: flex;
+  padding: 8px 128px 64px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 64px;
+}
+
+.left-side {
+  width: 500px;
+  padding: 16px;
+}
+
+.hero-button {
+  margin-top: 8px;
+}
+
+
+
+
+/* Copyright Footer */
 
 .copyright-footer {
   height: 60px;
