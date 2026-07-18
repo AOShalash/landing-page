@@ -167,6 +167,31 @@ body,
   padding: 12px 0 0 0;
 }
 
+/* Quote Quadrant */
+
+.quote-quadrant {
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-box {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 50%;
+  gap: 20px;
+  margin: 64px;
+  align-items: end;
+}
+
+.quote {
+  font-style: italic;
+}
+
+.quote-attribution {
+  font-weight: bold;
+  font-size: 24px;
+}
+
 /* Copyright Footer */
 
 .copyright-footer {
