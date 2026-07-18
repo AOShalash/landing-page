@@ -102,10 +102,6 @@ body,
   flex: 1;
 }
 
-.random-info-quadrant {
-  flex-direction: column;
-}
-
 /* Top Quadrant */
 
 .top-quadrant {
@@ -138,6 +134,37 @@ body,
 .hero-button {
   margin-top: 32px;
   flex-shrink: 0;
+}
+
+/* Random Info Quadrant */
+
+.random-info-quadrant {
+  flex-direction: column;
+  align-items: center;
+  margin: 48px 0;
+}
+
+.random-info-grid {
+  gap: 40px;
+}
+
+.random-info-img-and-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 50%;
+}
+
+.random-info-img {
+  border: 2px solid blue;
+  border-width: medium;
+  border-radius: 12px;
+}
+
+.random-info-text {
+  max-width: 210px;
+  text-align: center;
+  padding: 12px 0 0 0;
 }
 
 /* Copyright Footer */
