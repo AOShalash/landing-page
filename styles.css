@@ -66,7 +66,9 @@ ul {
 }
 
 button {
-  padding: 8px 24px;
+  padding: 8px 20px;
+  margin: 4px;
+  font-size: 20px;
   border: none;
   border-radius: 6px;
   font-weight: bold;
@@ -192,10 +194,35 @@ body,
   font-size: 24px;
 }
 
+/* Footer Quadrant */
+
+.footer-quadrant {
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-block {
+  margin: 64px;
+  padding: 64px;
+  color: white;
+  width: 75vw;
+  justify-content: space-around;
+  border-radius: 8px;
+}
+
+.signup-text {
+  width: 60%;
+}
+
+.signup-header {
+  font-weight: bold;
+  font-size: 24px;
+}
+
 /* Copyright Footer */
 
 .copyright-footer {
-  height: 60px;
   text-align: center;
   align-content: center;
+  min-height: 100px;
 }
